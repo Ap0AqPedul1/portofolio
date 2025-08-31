@@ -1,0 +1,20 @@
+{
+  "siteTitle": "Raden Muhammad Azhari Bastomi - Electrical Engineering Portfolio",
+  "siteDescription": "Ahli desain PCB, pemrograman (Arduino, PLC, Python, Android), dan desain 3D. Berpengalaman dalam proyek elektronik, otomasi, dan solusi inovatif teknologi.",
+  "siteKeywords": "raden muhammad azhari bastomi, electrical engineering, arduino programming, pcb design, python developer, plc programming, 3d design, automation, electronics engineer, cnc programming, iot systems, embedded systems",
+  "siteUrl": "https://azharibastomi.com",
+  "author": {
+    "name": "Raden Muhammad Azhari Bastomi",
+    "email": "azhari.bastomi@email.com",
+    "image": "/images/azhari-profile.jpg"
+  },
+  "openGraph": {
+    "type": "website",
+    "locale": "id_ID",
+    "siteName": "Azhari Bastomi Portfolio"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "creator": "@azharibastomi"
+  }
+}
