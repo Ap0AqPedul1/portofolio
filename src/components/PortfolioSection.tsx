@@ -1,6 +1,7 @@
-'use client';
+ 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import type { PortfolioItem } from '@/types';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import PortfolioDetail from './PortfolioDetail';
@@ -10,7 +11,7 @@ interface PortfolioSectionProps {
 }
 
 export default function PortfolioSection({ data }: PortfolioSectionProps) {
-  const [ref, isIntersecting] = useIntersectionObserver({
+  const [ref] = useIntersectionObserver({
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
   });
@@ -59,9 +60,15 @@ export default function PortfolioSection({ data }: PortfolioSectionProps) {
                   onClick={() => handleViewDetail(project)}
                 >
                   <div
-                    className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}
+                    className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center overflow-hidden`}
                   >
-                    <span className="text-white text-4xl">{project.icon}</span>
+                    <Image
+                      src={project.photo ?? '/img/banner.jpg'}
+                      alt={`${project.title} banner`}
+                      width={800}
+                      height={320}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div className="p-6 flex flex-col h-full">
                     <div className="mb-2">

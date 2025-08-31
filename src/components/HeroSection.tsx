@@ -48,10 +48,11 @@ export default function HeroSection({ data }: HeroSectionProps) {
                 {/* Profile Photo Container */}
                 <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-500 p-1 animate-float">
                   <div className="w-full h-full rounded-full bg-white/10 backdrop-blur-lg flex items-center justify-center overflow-hidden">
-                    <svg className="w-48 h-48 md:w-56 md:h-56 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <title>Profile avatar</title>
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                    </svg>
+                    <img
+                      src="/img/images.jpeg"
+                      alt={`${data?.title ?? 'Profile'} photo`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
 

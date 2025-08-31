@@ -20,10 +20,14 @@
 
 @layer components {
   .animated-bg {
-    background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c);
-    background-size: 400% 400%;
-    animation: gradient-shift 15s ease infinite;
+    position: relative;
+    overflow: hidden;
+    /* darker, dramatic purple gradient */
+    background: linear-gradient(-45deg, #050819, #3B0B70, #5B21B6, #7C3AED);
+    background-size: 300% 300%;
+    animation: gradient-shift 14s ease infinite;
   }
+  /* moving gradient (no glossy sheen) */
   
   .nav-blur {
     backdrop-filter: blur(10px);
@@ -141,5 +145,32 @@
     50% {
       box-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
     }
+  }
+
+  @keyframes sheen {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0.0;
+    }
+    10% {
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateX(20%);
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateX(120%);
+      opacity: 0.0;
+    }
+  }
+
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 }

@@ -1,513 +1,609 @@
 {
-  "navigation": {
-    "logo": "Azhari Bastomi",
-    "menuItems": [
-      {
-        "id": "beranda",
-        "label": "Beranda",
-        "href": "#beranda"
-      },
-      {
-        "id": "pengalaman",
-        "label": "Pengalaman",
-        "href": "#pengalaman"
-      },
-      {
-        "id": "pendidikan",
-        "label": "Pendidikan",
-        "href": "#pendidikan"
-      },
-      {
-        "id": "prestasi",
-        "label": "Prestasi",
-        "href": "#prestasi"
-      },
-      {
-        "id": "pelatihan",
-        "label": "Pelatihan",
-        "href": "#pelatihan"
-      },
-      {
-        "id": "portofolio",
-        "label": "Portofolio",
-        "href": "#portofolio"
-      }
-    ]
-  },
-  "hero": {
-    "title": "Raden Muhammad Azhari Bastomi",
-    "subtitle": "Electrical Engineering - Ahli desain PCB, pemrograman, dan solusi teknologi inovatif",
-    "ctaText": "Jelajahi Portfolio",
-    "ctaLink": "#portofolio"
-  },
-  "experiences": [
-    {
-      "id": 1,
-      "position": "Staff Automate Engineering",
-      "company": "PT. TSM Technologies",
-      "period": "Juli 2024 - Sekarang",
-      "description": "Mengembangkan alat pengukur tekanan dan sistem komunikasi otomatis untuk industri. Project BEXA dan TM-88 menggunakan Python untuk kontrol gerak, sensor integration, dan data acquisition.",
-      "gradient": "from-blue-500 to-purple-600"
-    },
-    {
-      "id": 2,
-      "position": "Freelance Programmer",
-      "company": "Jakarta Timur",
-      "period": "Oktober 2021 - Sekarang",
-      "description": "Memprogram perangkat elektronik, integrasi sensor & aktuator, pengujian & kalibrasi alat, serta dokumentasi teknis untuk berbagai proyek teknologi.",
-      "gradient": "from-green-500 to-blue-600"
-    },
-    {
-      "id": 3,
-      "position": "Staff Program",
-      "company": "PT. Mobitell Andalan Komunikasi",
-      "period": "Maret 2023 - Juni 2024",
-      "description": "Desain PCB, programming hardware, desain enclosure, dan quality testing untuk produk elektronik dan komunikasi.",
-      "gradient": "from-purple-500 to-pink-600"
-    },
-    {
-      "id": 4,
-      "position": "Staff Quality Control",
-      "company": "PT. Swayasa Prakarsa",
-      "period": "Juli 2022 - Februari 2023",
-      "description": "Quality control alat medis ventilator, kalibrasi sensor suhu & kelembapan, pemeliharaan dan perbaikan perangkat medis.",
-      "gradient": "from-red-500 to-orange-600"
-    },
-    {
-      "id": 5,
-      "position": "Technical Expert",
-      "company": "PT. Nanosense Instrument Indonesia",
-      "period": "Agustus 2021 - Juli 2022",
-      "description": "Pengembangan program Arduino, pembuatan GUI Python, troubleshooting perangkat, dan desain PCB untuk instrumen pengukuran.",
-      "gradient": "from-indigo-500 to-blue-600"
-    },
-    {
-      "id": 6,
-      "position": "Asisten Dosen Teknik Elektro",
-      "company": "Universitas Muhammadiyah Surakarta",
-      "period": "September 2019 - Agustus 2020",
-      "description": "Menyusun materi pembelajaran, membuat modul praktikum hardware/software, dan evaluasi pembelajaran mahasiswa teknik elektro.",
-      "gradient": "from-teal-500 to-green-600"
-    }
-  ],
-  "education": {
-    "degree": "Sarjana Teknik Elektro",
-    "institution": "Universitas Muhammadiyah Surakarta",
-    "period": "2016 - 2020",
-    "gpa": "3.52",
-    "description": "Fokus pada sistem elektronik, pemrograman embedded systems, dan teknologi otomasi industri."
-  },
-  "achievements": [
-    {
-      "id": 1,
-      "title": "KOMURINDO KOMBAT 2019",
-      "organization": "Peserta Divisi Muatan Roket Indonesia",
-      "icon": "🚀",
-      "gradient": "from-yellow-400 to-orange-500"
-    },
-    {
-      "id": 2,
-      "title": "Kontes Robot Terbang Indonesia 2019",
-      "organization": "Divisi Technology Development - RC Flapping Bird",
-      "icon": "🛩️",
-      "gradient": "from-blue-400 to-purple-500"
-    },
-    {
-      "id": 3,
-      "title": "Kontes Robot Terbang Indonesia 2017",
-      "organization": "Divisi Technology Development - Antenna Tracker 360",
-      "icon": "📡",
-      "gradient": "from-green-400 to-blue-500"
-    },
-    {
-      "id": 4,
-      "title": "Lomba Keterampilan Siswa 2015",
-      "organization": "Peserta Divisi Mobile Robotic",
-      "icon": "🤖",
-      "gradient": "from-purple-400 to-pink-500"
-    }
-  ],
-  "certifications": [
-    {
-      "id": 1,
-      "name": "Microsoft Azure AI Fundamentals",
-      "provider": "Microsoft - Kartu Prakerja",
-      "year": "2023"
-    },
-    {
-      "id": 2,
-      "name": "Android 14 & Kotlin Development Masterclass",
-      "provider": "Udemy",
-      "year": "2023"
-    },
-    {
-      "id": 3,
-      "name": "Belajar Dasar Visualisasi Data",
-      "provider": "Dicoding Indonesia",
-      "year": "2021"
-    },
-    {
-      "id": 4,
-      "name": "Belajar Fundamental Aplikasi Android",
-      "provider": "Dicoding Indonesia",
-      "year": "2021"
-    },
-    {
-      "id": 5,
-      "name": "Belajar Dasar AI",
-      "provider": "Dicoding Indonesia",
-      "year": "2021"
-    },
-    {
-      "id": 6,
-      "name": "Memulai Pemrograman dengan Kotlin",
-      "provider": "Dicoding Indonesia",
-      "year": "2021"
-    }
-  ],
-  "portfolio": [
-    {
-      "id": 1,
-      "title": "Alat Penerjemah Bahasa Isyarat Berbasis Raspberry Pi",
-      "category": "AI & Computer Vision",
-      "description": "Perangkat penerjemah bahasa isyarat menjadi suara menggunakan Raspberry Pi dan sistem pengenalan pose untuk membantu komunikasi penyandang tunarungu.",
-      "technologies": ["Raspberry Pi", "Computer Vision", "Google TTS", "Python", "OpenCV"],
-      "image": "/project-images/sign-language.jpg",
-      "link": "/portfolio/1",
-      "gradient": "from-blue-500 to-purple-600",
-      "icon": "🤟",
-      "detailDescription": "Proyek ini merupakan bagian dari penelitian dosen Universitas Muhammadiyah Surakarta yang saya kembangkan sekaligus sebagai bahan skripsi. Perangkat ini dirancang untuk menerjemahkan bahasa isyarat (pose jari) menjadi suara, sehingga dapat membantu komunikasi antara pengguna bahasa isyarat dengan masyarakat umum.",
-      "specifications": [
-        "Raspberry Pi sebagai pusat pemrosesan untuk membaca pose jari setiap huruf/abjad",
-        "Sistem pengenalan pose untuk mendeteksi rangkaian huruf membentuk kalimat", 
-        "Konversi teks ke suara menggunakan Google Text-to-Speech",
-        "Desain portabel menyerupai laptop mini dengan baterai dan speaker"
-      ],
-      "contributions": [
-        "Mengembangkan sistem pembacaan pose jari dan pemetaan huruf ke teks",
-        "Mengintegrasikan teks ke dalam sistem suara berbasis Google TTS", 
-        "Mengoptimalkan perangkat agar responsif, portabel, dan hemat daya"
-      ],
-      "results": "Perangkat penerjemah bahasa isyarat portabel yang praktis, ramah pengguna, dan membantu mempermudah komunikasi lintas bahasa."
-    },
-    {
-      "id": 2,
-      "title": "Prototipe Kapal Pengangkut Sampah",
-      "category": "Robotics & Automation", 
-      "description": "Robot pembersih sampah terapung dengan kamera monitoring dan sistem kontrol navigasi untuk membersihkan sampah di permukaan air secara efisien.",
-      "technologies": ["Arduino", "Servo Control", "Camera System", "Motor Control", "Wireless"],
-      "image": "/project-images/waste-boat.jpg",
-      "link": "/portfolio/2",
-      "gradient": "from-green-500 to-blue-600",
-      "icon": "🚢",
-      "detailDescription": "Pada proyek tugas akhir ini, saya berperan dalam pengembangan program pengendalian untuk sebuah robot pembersih sampah terapung. Alat ini dirancang untuk membersihkan sampah yang mengambang di permukaan air, dilengkapi dengan kamera untuk memantau dan mendeteksi keberadaan sampah secara real-time.",
-      "specifications": [
-        "Pengendalian gerak robot dengan perintah maju, belok kiri, belok kanan, dan berhenti",
-        "Kontrol servo untuk mekanisme buka-tutup penangkap sampah",
-        "Integrasi sistem kamera untuk pemantauan visual real-time",
-        "Navigasi adaptif berdasarkan deteksi sampah"
-      ],
-      "contributions": [
-        "Mengimplementasikan sistem pengendalian gerak robot untuk navigasi di air",
-        "Mengatur mekanisme kontrol servo penutup penangkap sampah",
-        "Mengintegrasikan sistem kamera dengan kontrol pergerakan robot"
-      ],
-      "results": "Sistem kontrol yang responsif dan mudah digunakan, memudahkan proses pengambilan sampah secara efisien dan tepat sasaran di lingkungan perairan."
-    },
-    {
-      "id": 3,
-      "title": "Prototipe Antena Tracker 360°",
-      "category": "Telecommunications",
-      "description": "Sistem pelacakan antena otomatis untuk memantau posisi wahana terbang dengan motor stepper dan komunikasi radio 433MHz untuk KRTI.",
-      "technologies": ["GPS", "Radio 433MHz", "Stepper Motor", "Altimeter", "Compass"],
-      "image": "/project-images/antenna-tracker.jpg", 
-      "link": "/portfolio/3",
-      "gradient": "from-purple-500 to-pink-600",
-      "icon": "📡",
-      "detailDescription": "Proyek ini merupakan tugas akhir mahasiswa sekaligus ide untuk lomba KRTI (Kontes Robot Terbang Indonesia). Sistem ini dirancang untuk memantau posisi wahana terbang seperti pesawat atau drone, mencakup jarak, arah hadap (timur, barat, utara, selatan), dan ketinggian.",
-      "specifications": [
-        "Payload dengan sensor GPS, altimeter, dan kompas digital pada wahana terbang",
-        "Transmisi data real-time melalui radio frekuensi 433 MHz",
-        "Algoritma perhitungan jarak dan sudut untuk tracking otomatis", 
-        "Motor stepper untuk pergerakan antena mengikuti wahana terbang"
-      ],
-      "contributions": [
-        "Mengembangkan program pengolahan data payload (GPS, ketinggian, arah hadap)",
-        "Membuat sistem pengiriman data melalui radio frekuensi",
-        "Mengimplementasikan algoritma kontrol motor stepper untuk tracking",
-        "Mengintegrasikan seluruh sistem agar bekerja sinkron dan responsif"
-      ],
-      "results": "Sistem pelacakan yang mampu mengikuti wahana terbang secara real-time dengan presisi tinggi, mendukung pengujian dan perlombaan robot terbang."
-    },
-    {
-      "id": 4,
-      "title": "Robot Covid Monitoring System",
-      "category": "Medical Technology",
-      "description": "Sistem monitoring kesehatan pasien Covid-19 tanpa kontak dengan pembacaan vital signs dan pengiriman data real-time ke web monitoring.", 
-      "technologies": ["Heart Rate Sensor", "SpO2 Sensor", "Barcode Scanner", "Web Integration", "Real-time Data"],
-      "image": "/project-images/covid-robot.jpg",
-      "link": "/portfolio/4", 
-      "gradient": "from-red-500 to-orange-600",
-      "icon": "🤖",
-      "detailDescription": "Proyek ini merupakan inisiatif kampus untuk berinovasi dalam menghadapi masa pandemi Covid-19. Pengerjaan dilakukan secara tim, dengan pembagian tugas sesuai bidang masing-masing. Saya bertanggung jawab pada divisi pemrograman untuk pengolahan dan pengiriman data kesehatan pasien.",
-      "specifications": [
-        "Pembacaan parameter vital: detak jantung, kadar oksigen (SpO₂), dan barcode identitas",
-        "Pengiriman data real-time ke web monitoring untuk tenaga medis",
-        "Monitoring jarak jauh tanpa kontak langsung",
-        "Sistem alert untuk kondisi vital yang abnormal"
-      ],
-      "contributions": [
-        "Mengembangkan program pembacaan data dari sensor detak jantung dan oksigen",
-        "Mengintegrasikan pembacaan barcode pasien ke dalam sistem", 
-        "Mengirimkan data ke server web melalui protokol komunikasi tim"
-      ],
-      "results": "Sistem monitoring yang mampu menampilkan kondisi pasien secara real-time di platform web, membantu tenaga medis dalam pengambilan keputusan cepat dan aman."
-    },
-    {
-      "id": 5,
-      "title": "Sistem Lampu Lalu Lintas Adaptif",
-      "category": "Smart City",
-      "description": "Sistem pengaturan durasi lampu lalu lintas berbasis Raspberry Pi dengan computer vision untuk menghitung kendaraan dan mengoptimalkan arus lalu lintas.",
-      "technologies": ["Raspberry Pi", "Computer Vision", "Traffic Analysis", "Image Processing", "Smart Control"],
-      "image": "/project-images/traffic-light.jpg",
-      "link": "/portfolio/5",
-      "gradient": "from-indigo-500 to-blue-600", 
-      "icon": "🚦",
-      "detailDescription": "Proyek ini merupakan bagian dari penelitian dosen, yang bertujuan untuk mengoptimalkan pengaturan durasi lampu lalu lintas berdasarkan jumlah kendaraan yang melintas. Sistem memanfaatkan Raspberry Pi sebagai pemroses utama untuk menganalisis data visual dari kamera.",
-      "specifications": [
-        "Kamera untuk menangkap gambar kendaraan pada jalur tertentu",
-        "Raspberry Pi memproses frame untuk menghitung jumlah kendaraan",
-        "Algoritma adaptif untuk menyesuaikan durasi lampu berdasarkan kepadatan",
-        "Sistem optimasi untuk mengurangi kemacetan di persimpangan"
-      ],
-      "contributions": [
-        "Mengembangkan program deteksi dan perhitungan jumlah kendaraan dari data gambar",
-        "Mengintegrasikan hasil perhitungan dengan sistem pengatur waktu lampu",
-        "Menguji dan mengoptimalkan akurasi deteksi pada kondisi pencahayaan berbeda"
-      ],
-      "results": "Sistem lampu lalu lintas adaptif yang mampu menyesuaikan durasi berdasarkan kepadatan kendaraan, sehingga meningkatkan kelancaran arus lalu lintas di persimpangan."
-    },
-    {
-      "id": 6,
-      "title": "Digital PTT Dispatcher Unit BRT",
-      "category": "Transportation Technology", 
-      "description": "Sistem komunikasi Push-To-Talk digital untuk armada Bus Rapid Transit dengan web dashboard dan konektivitas LTE untuk koordinasi real-time.",
-      "technologies": ["Python", "Raspberry Pi", "LTE Module", "Web Dashboard", "Audio Processing"],
-      "image": "/project-images/ptt-system.jpg",
-      "link": "/portfolio/6",
-      "gradient": "from-teal-500 to-green-600",
-      "icon": "📻",
-      "detailDescription": "Proyek ini merupakan pengembangan Digital Push-To-Talk (PTT) Dispatcher Unit yang digunakan untuk armada Bus Rapid Transit (BRT), memungkinkan komunikasi real-time antara pengemudi bus dan pusat kendali (dispatcher). Sistem ini dirancang untuk meningkatkan koordinasi operasional, keamanan, dan responsivitas di lapangan.",
-      "specifications": [
-        "Firmware berbasis Python untuk komunikasi suara dan kontrol perangkat",
-        "Web Dashboard untuk monitoring status bus dan pengiriman instruksi", 
-        "Integrasi Raspberry Pi, modul LTE, sistem audio, dan PCB custom",
-        "Sistem burn-in test untuk stabilitas operasional harian"
-      ],
-      "contributions": [
-        "Mengembangkan firmware untuk pengolahan audio dan komunikasi LTE",
-        "Membuat web dashboard untuk dispatcher dengan monitoring real-time",
-        "Melakukan hardware assembly dan integrasi sistem lengkap",
-        "Mengimplementasikan burn-in test untuk ketahanan operasional"
-      ],
-      "results": "Sistem PTT yang meningkatkan efisiensi koordinasi armada BRT, memungkinkan respon cepat terhadap situasi darurat, dan memberikan komunikasi andal antara pengemudi dan pusat kendali."
-    },
-    {
-      "id": 7,
-      "title": "Sistem Monitoring Tekanan dan Flow LCD TFT",
-      "category": "Instrumentation",
-      "description": "Sistem monitoring real-time parameter tekanan dan laju aliran dengan tampilan LCD TFT untuk pengujian dan pemantauan proses industri.",
-      "technologies": ["LCD TFT", "Pressure Sensor", "Flow Sensor", "Microcontroller", "Data Processing"],
-      "image": "/project-images/pressure-flow.jpg",
-      "link": "/portfolio/7",
-      "gradient": "from-orange-500 to-red-600",
-      "icon": "📊",
-      "detailDescription": "Proyek ini merupakan tugas akhir mahasiswa yang bertujuan untuk memantau parameter tekanan dan laju aliran (flow) secara real-time. Sistem ini menggunakan LCD TFT sebagai media tampilan agar data dapat dibaca dengan jelas dan interaktif.",
-      "specifications": [
-        "Pembacaan data dari sensor tekanan dan sensor flow secara real-time",
-        "Konversi sinyal sensor menjadi data dalam satuan tekanan (bar/psi) dan flow (L/min)",
-        "Proses filtering untuk menjaga kestabilan dan akurasi pembacaan",
-        "Tampilan LCD TFT dengan layout yang mudah dipahami pengguna"
-      ],
-      "contributions": [
-        "Mengembangkan program untuk membaca data dari sensor tekanan dan flow",
-        "Mengolah data dan menampilkannya secara real-time pada LCD TFT",
-        "Mengoptimalkan antarmuka tampilan agar informatif, jelas, dan mudah dibaca"
-      ],
-      "results": "Perangkat monitoring yang portabel, akurat, dan praktis digunakan dalam berbagai kebutuhan teknis untuk pengujian, pemantauan proses, maupun evaluasi kinerja sistem fluida."
-    },
-    {
-      "id": 8,
-      "title": "Sistem Monitoring Gas Medis 4 Jenis dengan HMI Nextion",
-      "category": "Medical Technology",
-      "description": "Sistem monitoring komprehensif untuk empat jenis gas medis (O₂, N₂O, Medical Air, Vacuum) dengan HMI Nextion dan pengiriman data wireless.",
-      "technologies": ["HMI Nextion", "VB.net", "Radio Frequency", "Pressure Sensors", "Flow Sensors"],
-      "image": "/project-images/medical-gas.jpg",
-      "link": "/portfolio/8", 
-      "gradient": "from-cyan-500 to-blue-600",
-      "icon": "🏥",
-      "detailDescription": "Proyek ini merupakan kerja sama dengan CV Mitramed Sentosa yang dikerjakan selama enam bulan secara tim. Sistem ini dirancang untuk memantau tekanan dan laju aliran (flow) empat jenis gas medis — O₂ (Oksigen), N₂O (Nitrous Oxide), Medical Air, dan Vacuum — secara real-time, dengan fitur peringatan batas maksimum dan minimum, serta pengiriman data ke ruang monitor melalui radio frekuensi.",
-      "specifications": [
-        "Monitoring tekanan dan flow O₂, N₂O, Medical Air, dan Vacuum secara real-time",
-        "HMI Nextion untuk tampilan interaktif dengan peringatan visual/audio",
-        "Sistem peringatan max/min untuk tekanan di luar batas aman", 
-        "Pengiriman data wireless ke ruang monitor via radio frekuensi",
-        "Software monitoring berbasis VB.net untuk tampilan di lokasi tertentu"
-      ],
-      "contributions": [
-        "Pemrograman HMI Nextion untuk menampilkan data gas secara interaktif", 
-        "Membaca data sensor tekanan dan flow dari empat gas medis",
-        "Mengimplementasikan sistem peringatan max/min untuk keamanan",
-        "Mengirimkan data real-time ke ruang monitor menggunakan radio frekuensi",
-        "Mengembangkan software monitoring berbasis VB.net"
-      ],
-      "results": "Sistem yang mampu memberikan informasi tekanan dan flow gas medis secara akurat dan real-time, membantu tenaga medis memantau kondisi gas di rumah sakit dengan cepat dan efisien."
-    },
-    {
-      "id": 9,
-      "title": "Robot Pengendalian Lampu UVC Bluetooth",
-      "category": "Robotics & Sterilization",
-      "description": "Robot sterilisasi dengan lampu UVC yang dikendalikan menggunakan stick PS via Bluetooth untuk proses sterilisasi area secara remote dan aman.",
-      "technologies": ["Bluetooth Control", "PS Controller", "UVC Lamp", "Robot Control", "Remote Operation"],
-      "image": "/project-images/uvc-robot.jpg",
-      "link": "/portfolio/9",
-      "gradient": "from-violet-500 to-purple-600", 
-      "icon": "🤖",
-      "detailDescription": "Proyek ini dikerjakan saat mengikuti pelatihan di BLK Yogyakarta selama satu bulan, dengan pengerjaan secara tim. Sistem ini dirancang untuk mengendalikan pergerakan robot dan lampu UVC menggunakan controller stick PS berbasis Bluetooth.",
-      "specifications": [
-        "Pengendalian robot dengan stick PS melalui konektivitas Bluetooth",
-        "Pergerakan robot maju, mundur, dan berbelok sesuai input stick",
-        "Kontrol on/off lampu UVC melalui kendali jarak jauh",
-        "Integrasi sistem navigasi robot dengan kontrol lampu sterilisasi"
-      ],
-      "contributions": [
-        "Mengembangkan program kontrol robot menggunakan sinyal dari stick PS Bluetooth",
-        "Mengintegrasikan fitur on/off lampu UVC melalui kendali jarak jauh", 
-        "Mengoptimalkan respons robot agar pergerakan halus dan akurat"
-      ],
-      "results": "Robot yang mampu bergerak dengan kendali jarak jauh menggunakan stick PS Bluetooth dan mengaktifkan lampu UVC sesuai kebutuhan, mendukung proses sterilisasi secara efisien dan aman."
-    },
-    {
-      "id": 10,
-      "title": "Sistem Timbangan Digital 4 Loadcell 2 Ton",
-      "category": "Industrial Scale",
-      "description": "Timbangan digital kapasitas 2 ton menggunakan empat loadcell dengan sistem kalibrasi otomatis untuk aplikasi jembatan timbang dan timbangan pakan ternak.",
-      "technologies": ["4 Loadcell", "Weight Measurement", "LCD Display", "Calibration System", "Industrial Scale"],
-      "image": "/project-images/digital-scale.jpg", 
-      "link": "/portfolio/10",
-      "gradient": "from-emerald-500 to-teal-600",
-      "icon": "⚖️",
-      "detailDescription": "Proyek ini merupakan tugas akhir mahasiswa, di mana saya bertanggung jawab pada bagian pemrograman sistem. Perangkat ini menggunakan empat loadcell yang mampu membaca berat beban hingga maksimal 2 ton, dan dapat digunakan sebagai timbangan jembatan kendaraan maupun timbangan pakan ternak.",
-      "specifications": [
-        "Empat loadcell membaca berat beban secara simultan hingga 2 ton",
-        "Sistem kalibrasi otomatis untuk akurasi pembacaan harian",
-        "Tampilan berat individual per sensor dan total keseluruhan",
-        "Display LCD dengan format pembacaan yang jelas dan mudah dipantau"
-      ],
-      "contributions": [
-        "Mengembangkan sistem kalibrasi empat loadcell untuk akurasi konsisten",
-        "Memprogram pembacaan berat individual dan total secara real-time", 
-        "Mengoptimalkan tampilan LCD untuk kemudahan monitoring pengguna"
-      ],
-      "results": "Sistem timbangan yang menghasilkan pembacaan berat akurat, stabil, dan mudah dioperasikan, cocok untuk kebutuhan industri maupun peternakan dengan kapasitas hingga 2 ton."
-    },
-    {
-      "id": 11,
-      "title": "Sistem Monitoring Panel Surya IoT Blynk & Firebase",
-      "category": "Renewable Energy IoT",
-      "description": "Sistem monitoring daya panel surya dan baterai Shoto berbasis IoT dengan Blynk dan Firebase untuk pemantauan online real-time dan alarm overcharge.",
-      "technologies": ["IoT", "Blynk", "Firebase", "Solar Panel", "Battery Management"], 
-      "image": "/project-images/solar-monitoring.jpg",
-      "link": "/portfolio/11",
-      "gradient": "from-yellow-500 to-orange-600",
-      "icon": "☀️",
-      "detailDescription": "Proyek ini merupakan permintaan dari rekan kerja untuk membuat sistem monitoring daya panel surya dan proses pengisian baterai Shoto secara online menggunakan Blynk dan Firebase. Sistem ini memungkinkan pengguna memantau kondisi panel surya, baterai, dan inverter secara real-time melalui internet.",
-      "specifications": [
-        "Monitoring daya panel surya: tegangan, arus, daya, dan energi (kWh)",
-        "Monitoring baterai Shoto: tegangan, arus, daya dengan alarm overcharge",
-        "Monitoring inverter: tegangan, arus, dan daya untuk konsumsi harian",
-        "Sistem alarm otomatis untuk parameter di luar batas aman"
-      ],
-      "contributions": [
-        "Mengintegrasikan sensor daya untuk pembacaan parameter listrik lengkap",
-        "Mengembangkan sistem pengiriman data online ke Blynk dan Firebase",
-        "Mengimplementasikan sistem alarm overcharge untuk keamanan baterai",
-        "Membuat dashboard monitoring yang dapat diakses via mobile dan komputer"
-      ],
-      "results": "Sistem yang memudahkan pemilik panel surya memantau produksi daya, status pengisian baterai, dan konsumsi listrik secara real-time, sekaligus meningkatkan keamanan melalui sistem alarm otomatis."
-    },
-    {
-      "id": 12,
-      "title": "Hot Wire Foam Cutter 4 Axis MKS Robin Nano",
-      "category": "CNC Machining",
-      "description": "Mesin Hot Wire Cutter 4 sumbu berbasis MKS Robin Nano V3.1 untuk memotong foam dengan presisi tinggi untuk aeromodelling dan prototipe.",
-      "technologies": ["MKS Robin Nano", "4-Axis CNC", "G-code", "Stepper Motors", "Hot Wire Cutting"],
-      "image": "/project-images/foam-cutter.jpg",
-      "link": "/portfolio/12",
-      "gradient": "from-red-500 to-pink-600",
-      "icon": "⚡",
-      "detailDescription": "Proyek ini bertujuan mengembangkan mesin Hot Wire Cutter 4 Axis yang digunakan untuk memotong material busa (foam) dengan tingkat presisi tinggi, cocok untuk pembuatan komponen aeromodelling, dekorasi, maupun prototipe. Sistem ini menggunakan controller MKS Robin Nano V3.1 untuk mengatur gerakan motor stepper di empat sumbu sekaligus.",
-      "specifications": [
-        "Controller MKS Robin Nano V3.1 untuk kontrol 4 sumbu (X1, X2, Y1, Y2)",
-        "Gerakan sinkron kawat panas sesuai koordinat G-code dari CAD/CAM",
-        "Pengaturan suhu kawat pemotong adaptif untuk berbagai jenis material",
-        "Kemampuan memotong bentuk 2D/3D kompleks dengan presisi tinggi"
-      ],
-      "contributions": [
-        "Pemrograman firmware MKS Robin Nano V3.1 untuk kontrol 4 sumbu sinkron",
-        "Kalibrasi motor stepper untuk akurasi gerakan sesuai dimensi G-code",
-        "Integrasi power supply dan driver untuk pengaturan suhu kawat optimal",
-        "Pengujian presisi potong untuk memastikan hasil potongan halus dan akurat"
-      ],
-      "results": "Mesin Hot Wire 4 Axis yang mampu memotong material foam dengan tingkat presisi tinggi, mendukung pembuatan bentuk kompleks, dan memiliki antarmuka yang mudah dioperasikan."
-    },
-    {
-      "id": 13,
-      "title": "Sistem Deteksi Plat Nomor YOLOv8 Real-time",
-      "category": "Computer Vision AI",
-      "description": "Sistem deteksi dan pengenalan plat nomor kendaraan real-time menggunakan YOLOv8 dan OCR untuk automasi pencatatan di jembatan timbang.",
-      "technologies": ["YOLOv8", "OCR", "Computer Vision", "Real-time Processing", "Database Integration"],
-      "image": "/project-images/license-plate.jpg",
-      "link": "/portfolio/13", 
-      "gradient": "from-indigo-500 to-purple-600",
-      "icon": "🚗",
-      "detailDescription": "Proyek ini mengembangkan sistem pendeteksian plat nomor kendaraan secara realtime menggunakan YOLOv8 sebagai model deteksi objek dan teknologi OCR (Optical Character Recognition) untuk membaca teks pada plat nomor. Sistem ini digunakan untuk membantu proses pencatatan otomatis kendaraan yang memasuki jembatan timbang, sehingga data plat nomor dapat langsung tersimpan dan diolah tanpa input manual.",
-      "specifications": [
-        "Model YOLOv8 untuk deteksi plat nomor dari streaming kamera CCTV",
-        "Teknologi OCR untuk ekstraksi teks dari plat nomor yang terdeteksi",
-        "Pemrosesan video real-time dengan optimasi frame rate dan filtering gambar",
-        "Database storage dengan timestamp, gambar plat, dan data lokasi"
-      ],
-      "contributions": [
-        "Implementasi YOLOv8 untuk deteksi plat nomor kendaraan secara cepat",
-        "Integrasi OCR untuk ekstraksi teks dari area plat yang terdeteksi",
-        "Pengolahan video real-time termasuk koreksi distorsi kamera",
-        "Pengujian sistem pada berbagai kondisi pencahayaan dan sudut pandang",
-        "Pengelolaan database untuk penyimpanan hasil deteksi lengkap"
-      ],
-      "results": "Sistem yang mampu bekerja secara real-time membantu mempercepat pencatatan data kendaraan. Tingkat akurasi deteksi dapat ditingkatkan lebih lanjut dan dapat dikembangkan untuk integrasi dengan sistem penimbangan dan penagihan otomatis."
-    }
-  ],
-  "footer": {
-    "title": "Mari Berkolaborasi!",
-    "subtitle": "Hubungi saya untuk proyek teknologi inovatif berikutnya",
-    "copyright": "© 2024 Raden Muhammad Azhari Bastomi. Electrical Engineering Portfolio",
-    "socialLinks": [
-      {
-        "name": "LinkedIn",
-        "url": "https://linkedin.com/in/azhari-bastomi",
-        "icon": "linkedin"
-      },
-      {
-        "name": "GitHub",
-        "url": "https://github.com/azhari-bastomi",
-        "icon": "github"
-      },
-      {
-        "name": "Email",
-        "url": "mailto:azhari.bastomi@gmail.com",
-        "icon": "email"
-      }
-    ]
-  }
+	"navigation": {
+		"logo": "Azhari Bastomi",
+		"menuItems": [
+			{
+				"id": "beranda",
+				"label": "Beranda",
+				"href": "#beranda"
+			},
+			{
+				"id": "pengalaman",
+				"label": "Pengalaman",
+				"href": "#pengalaman"
+			},
+			{
+				"id": "pendidikan",
+				"label": "Pendidikan",
+				"href": "#pendidikan"
+			},
+			{
+				"id": "prestasi",
+				"label": "Prestasi",
+				"href": "#prestasi"
+			},
+			{
+				"id": "pelatihan",
+				"label": "Pelatihan",
+				"href": "#pelatihan"
+			},
+			{
+				"id": "portofolio",
+				"label": "Portofolio",
+				"href": "#portofolio"
+			}
+		]
+	},
+	"hero": {
+		"title": "Raden Muhammad Azhari Bastomi",
+		"subtitle": "Electrical Engineering - Ahli desain PCB, pemrograman, dan solusi teknologi inovatif",
+		"ctaText": "Jelajahi Portfolio",
+		"ctaLink": "#portofolio"
+	},
+	"experiences": [
+		{
+			"id": 1,
+			"position": "Staff Automate Engineering",
+			"company": "PT. TSM Technologies",
+			"period": "Juli 2024 - Sekarang",
+			"description": "Mengembangkan alat pengukur tekanan dan sistem komunikasi otomatis untuk industri. Project BEXA dan TM-88 menggunakan Python untuk kontrol gerak, sensor integration, dan data acquisition.",
+			"gradient": "from-blue-500 to-purple-600"
+		},
+		{
+			"id": 2,
+			"position": "Freelance Programmer",
+			"company": "Jakarta Timur",
+			"period": "Oktober 2021 - Sekarang",
+			"description": "Memprogram perangkat elektronik, integrasi sensor & aktuator, pengujian & kalibrasi alat, serta dokumentasi teknis untuk berbagai proyek teknologi.",
+			"gradient": "from-green-500 to-blue-600"
+		},
+		{
+			"id": 3,
+			"position": "Staff Program",
+			"company": "PT. Mobitell Andalan Komunikasi",
+			"period": "Maret 2023 - Juni 2024",
+			"description": "Desain PCB, programming hardware, desain enclosure, dan quality testing untuk produk elektronik dan komunikasi.",
+			"gradient": "from-purple-500 to-pink-600"
+		},
+		{
+			"id": 4,
+			"position": "Staff Quality Control",
+			"company": "PT. Swayasa Prakarsa",
+			"period": "Juli 2022 - Februari 2023",
+			"description": "Quality control alat medis ventilator, kalibrasi sensor suhu & kelembapan, pemeliharaan dan perbaikan perangkat medis.",
+			"gradient": "from-red-500 to-orange-600"
+		},
+		{
+			"id": 5,
+			"position": "Technical Expert",
+			"company": "PT. Nanosense Instrument Indonesia",
+			"period": "Agustus 2021 - Juli 2022",
+			"description": "Pengembangan program Arduino, pembuatan GUI Python, troubleshooting perangkat, dan desain PCB untuk instrumen pengukuran.",
+			"gradient": "from-indigo-500 to-blue-600"
+		},
+		{
+			"id": 6,
+			"position": "Asisten Dosen Teknik Elektro",
+			"company": "Universitas Muhammadiyah Surakarta",
+			"period": "September 2019 - Agustus 2020",
+			"description": "Menyusun materi pembelajaran, membuat modul praktikum hardware/software, dan evaluasi pembelajaran mahasiswa teknik elektro.",
+			"gradient": "from-teal-500 to-green-600"
+		}
+	],
+	"education": {
+		"degree": "Sarjana Teknik Elektro",
+		"institution": "Universitas Muhammadiyah Surakarta",
+		"period": "2016 - 2020",
+		"gpa": "3.52",
+		"description": "Fokus pada sistem elektronik, pemrograman embedded systems, dan teknologi otomasi industri."
+	},
+	"achievements": [
+		{
+			"id": 1,
+			"title": "KOMURINDO KOMBAT 2019",
+			"organization": "Peserta Divisi Muatan Roket Indonesia",
+			"icon": "🚀",
+			"gradient": "from-yellow-400 to-orange-500"
+		},
+		{
+			"id": 2,
+			"title": "Kontes Robot Terbang Indonesia 2019",
+			"organization": "Divisi Technology Development - RC Flapping Bird",
+			"icon": "🛩️",
+			"gradient": "from-blue-400 to-purple-500"
+		},
+		{
+			"id": 3,
+			"title": "Kontes Robot Terbang Indonesia 2017",
+			"organization": "Divisi Technology Development - Antenna Tracker 360",
+			"icon": "📡",
+			"gradient": "from-green-400 to-blue-500"
+		},
+		{
+			"id": 4,
+			"title": "Lomba Keterampilan Siswa 2015",
+			"organization": "Peserta Divisi Mobile Robotic",
+			"icon": "🤖",
+			"gradient": "from-purple-400 to-pink-500"
+		}
+	],
+	"certifications": [
+		{
+			"id": 1,
+			"name": "Microsoft Azure AI Fundamentals",
+			"provider": "Microsoft - Kartu Prakerja",
+			"year": "2023"
+		},
+		{
+			"id": 2,
+			"name": "Android 14 & Kotlin Development Masterclass",
+			"provider": "Udemy",
+			"year": "2023"
+		},
+		{
+			"id": 3,
+			"name": "Belajar Dasar Visualisasi Data",
+			"provider": "Dicoding Indonesia",
+			"year": "2021"
+		},
+		{
+			"id": 4,
+			"name": "Belajar Fundamental Aplikasi Android",
+			"provider": "Dicoding Indonesia",
+			"year": "2021"
+		},
+		{
+			"id": 5,
+			"name": "Belajar Dasar AI",
+			"provider": "Dicoding Indonesia",
+			"year": "2021"
+		},
+		{
+			"id": 6,
+			"name": "Memulai Pemrograman dengan Kotlin",
+			"provider": "Dicoding Indonesia",
+			"year": "2021"
+		}
+	],
+	"portfolio": [
+		{
+			"id": 1,
+			"title": "Alat Penerjemah Bahasa Isyarat Berbasis Raspberry Pi",
+			"category": "AI & Computer Vision",
+			"description": "Perangkat penerjemah bahasa isyarat menjadi suara menggunakan Raspberry Pi dan sistem pengenalan pose untuk membantu komunikasi penyandang tunarungu.",
+			"technologies": [
+				"Raspberry Pi",
+				"Computer Vision",
+				"Google TTS",
+				"Python",
+				"OpenCV"
+			],
+			"image": "/project-images/sign-language.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/1",
+			"gradient": "from-blue-500 to-purple-600",
+			"icon": "🤟",
+			"detailDescription": "Proyek ini merupakan bagian dari penelitian dosen Universitas Muhammadiyah Surakarta yang saya kembangkan sekaligus sebagai bahan skripsi. Perangkat ini dirancang untuk menerjemahkan bahasa isyarat (pose jari) menjadi suara, sehingga dapat membantu komunikasi antara pengguna bahasa isyarat dengan masyarakat umum.",
+			"specifications": [
+				"Raspberry Pi sebagai pusat pemrosesan untuk membaca pose jari setiap huruf/abjad",
+				"Sistem pengenalan pose untuk mendeteksi rangkaian huruf membentuk kalimat",
+				"Konversi teks ke suara menggunakan Google Text-to-Speech",
+				"Desain portabel menyerupai laptop mini dengan baterai dan speaker"
+			],
+			"contributions": [
+				"Mengembangkan sistem pembacaan pose jari dan pemetaan huruf ke teks",
+				"Mengintegrasikan teks ke dalam sistem suara berbasis Google TTS",
+				"Mengoptimalkan perangkat agar responsif, portabel, dan hemat daya"
+			],
+			"results": "Perangkat penerjemah bahasa isyarat portabel yang praktis, ramah pengguna, dan membantu mempermudah komunikasi lintas bahasa."
+		},
+		{
+			"id": 2,
+			"title": "Prototipe Kapal Pengangkut Sampah",
+			"category": "Robotics & Automation",
+			"description": "Robot pembersih sampah terapung dengan kamera monitoring dan sistem kontrol navigasi untuk membersihkan sampah di permukaan air secara efisien.",
+			"technologies": [
+				"Arduino",
+				"Servo Control",
+				"Camera System",
+				"Motor Control",
+				"Wireless"
+			],
+			"image": "/project-images/waste-boat.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/2",
+			"gradient": "from-green-500 to-blue-600",
+			"icon": "🚢",
+			"detailDescription": "Pada proyek tugas akhir ini, saya berperan dalam pengembangan program pengendalian untuk sebuah robot pembersih sampah terapung. Alat ini dirancang untuk membersihkan sampah yang mengambang di permukaan air, dilengkapi dengan kamera untuk memantau dan mendeteksi keberadaan sampah secara real-time.",
+			"specifications": [
+				"Pengendalian gerak robot dengan perintah maju, belok kiri, belok kanan, dan berhenti",
+				"Kontrol servo untuk mekanisme buka-tutup penangkap sampah",
+				"Integrasi sistem kamera untuk pemantauan visual real-time",
+				"Navigasi adaptif berdasarkan deteksi sampah"
+			],
+			"contributions": [
+				"Mengimplementasikan sistem pengendalian gerak robot untuk navigasi di air",
+				"Mengatur mekanisme kontrol servo penutup penangkap sampah",
+				"Mengintegrasikan sistem kamera dengan kontrol pergerakan robot"
+			],
+			"results": "Sistem kontrol yang responsif dan mudah digunakan, memudahkan proses pengambilan sampah secara efisien dan tepat sasaran di lingkungan perairan."
+		},
+		{
+			"id": 3,
+			"title": "Prototipe Antena Tracker 360°",
+			"category": "Telecommunications",
+			"description": "Sistem pelacakan antena otomatis untuk memantau posisi wahana terbang dengan motor stepper dan komunikasi radio 433MHz untuk KRTI.",
+			"technologies": [
+				"GPS",
+				"Radio 433MHz",
+				"Stepper Motor",
+				"Altimeter",
+				"Compass"
+			],
+			"image": "/project-images/antenna-tracker.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/3",
+			"gradient": "from-purple-500 to-pink-600",
+			"icon": "📡",
+			"detailDescription": "Proyek ini merupakan tugas akhir mahasiswa sekaligus ide untuk lomba KRTI (Kontes Robot Terbang Indonesia). Sistem ini dirancang untuk memantau posisi wahana terbang seperti pesawat atau drone, mencakup jarak, arah hadap (timur, barat, utara, selatan), dan ketinggian.",
+			"specifications": [
+				"Payload dengan sensor GPS, altimeter, dan kompas digital pada wahana terbang",
+				"Transmisi data real-time melalui radio frekuensi 433 MHz",
+				"Algoritma perhitungan jarak dan sudut untuk tracking otomatis",
+				"Motor stepper untuk pergerakan antena mengikuti wahana terbang"
+			],
+			"contributions": [
+				"Mengembangkan program pengolahan data payload (GPS, ketinggian, arah hadap)",
+				"Membuat sistem pengiriman data melalui radio frekuensi",
+				"Mengimplementasikan algoritma kontrol motor stepper untuk tracking",
+				"Mengintegrasikan seluruh sistem agar bekerja sinkron dan responsif"
+			],
+			"results": "Sistem pelacakan yang mampu mengikuti wahana terbang secara real-time dengan presisi tinggi, mendukung pengujian dan perlombaan robot terbang."
+		},
+		{
+			"id": 4,
+			"title": "Robot Covid Monitoring System",
+			"category": "Medical Technology",
+			"description": "Sistem monitoring kesehatan pasien Covid-19 tanpa kontak dengan pembacaan vital signs dan pengiriman data real-time ke web monitoring.",
+			"technologies": [
+				"Heart Rate Sensor",
+				"SpO2 Sensor",
+				"Barcode Scanner",
+				"Web Integration",
+				"Real-time Data"
+			],
+			"image": "/project-images/covid-robot.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/4",
+			"gradient": "from-red-500 to-orange-600",
+			"icon": "🤖",
+			"detailDescription": "Proyek ini merupakan inisiatif kampus untuk berinovasi dalam menghadapi masa pandemi Covid-19. Pengerjaan dilakukan secara tim, dengan pembagian tugas sesuai bidang masing-masing. Saya bertanggung jawab pada divisi pemrograman untuk pengolahan dan pengiriman data kesehatan pasien.",
+			"specifications": [
+				"Pembacaan parameter vital: detak jantung, kadar oksigen (SpO₂), dan barcode identitas",
+				"Pengiriman data real-time ke web monitoring untuk tenaga medis",
+				"Monitoring jarak jauh tanpa kontak langsung",
+				"Sistem alert untuk kondisi vital yang abnormal"
+			],
+			"contributions": [
+				"Mengembangkan program pembacaan data dari sensor detak jantung dan oksigen",
+				"Mengintegrasikan pembacaan barcode pasien ke dalam sistem",
+				"Mengirimkan data ke server web melalui protokol komunikasi tim"
+			],
+			"results": "Sistem monitoring yang mampu menampilkan kondisi pasien secara real-time di platform web, membantu tenaga medis dalam pengambilan keputusan cepat dan aman."
+		},
+		{
+			"id": 5,
+			"title": "Sistem Lampu Lalu Lintas Adaptif",
+			"category": "Smart City",
+			"description": "Sistem pengaturan durasi lampu lalu lintas berbasis Raspberry Pi dengan computer vision untuk menghitung kendaraan dan mengoptimalkan arus lalu lintas.",
+			"technologies": [
+				"Raspberry Pi",
+				"Computer Vision",
+				"Traffic Analysis",
+				"Image Processing",
+				"Smart Control"
+			],
+			"image": "/project-images/traffic-light.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/5",
+			"gradient": "from-indigo-500 to-blue-600",
+			"icon": "🚦",
+			"detailDescription": "Proyek ini merupakan bagian dari penelitian dosen, yang bertujuan untuk mengoptimalkan pengaturan durasi lampu lalu lintas berdasarkan jumlah kendaraan yang melintas. Sistem memanfaatkan Raspberry Pi sebagai pemroses utama untuk menganalisis data visual dari kamera.",
+			"specifications": [
+				"Kamera untuk menangkap gambar kendaraan pada jalur tertentu",
+				"Raspberry Pi memproses frame untuk menghitung jumlah kendaraan",
+				"Algoritma adaptif untuk menyesuaikan durasi lampu berdasarkan kepadatan",
+				"Sistem optimasi untuk mengurangi kemacetan di persimpangan"
+			],
+			"contributions": [
+				"Mengembangkan program deteksi dan perhitungan jumlah kendaraan dari data gambar",
+				"Mengintegrasikan hasil perhitungan dengan sistem pengatur waktu lampu",
+				"Menguji dan mengoptimalkan akurasi deteksi pada kondisi pencahayaan berbeda"
+			],
+			"results": "Sistem lampu lalu lintas adaptif yang mampu menyesuaikan durasi berdasarkan kepadatan kendaraan, sehingga meningkatkan kelancaran arus lalu lintas di persimpangan."
+		},
+		{
+			"id": 6,
+			"title": "Digital PTT Dispatcher Unit BRT",
+			"category": "Transportation Technology",
+			"description": "Sistem komunikasi Push-To-Talk digital untuk armada Bus Rapid Transit dengan web dashboard dan konektivitas LTE untuk koordinasi real-time.",
+			"technologies": [
+				"Python",
+				"Raspberry Pi",
+				"LTE Module",
+				"Web Dashboard",
+				"Audio Processing"
+			],
+			"image": "/project-images/ptt-system.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/6",
+			"gradient": "from-teal-500 to-green-600",
+			"icon": "📻",
+			"detailDescription": "Proyek ini merupakan pengembangan Digital Push-To-Talk (PTT) Dispatcher Unit yang digunakan untuk armada Bus Rapid Transit (BRT), memungkinkan komunikasi real-time antara pengemudi bus dan pusat kendali (dispatcher). Sistem ini dirancang untuk meningkatkan koordinasi operasional, keamanan, dan responsivitas di lapangan.",
+			"specifications": [
+				"Firmware berbasis Python untuk komunikasi suara dan kontrol perangkat",
+				"Web Dashboard untuk monitoring status bus dan pengiriman instruksi",
+				"Integrasi Raspberry Pi, modul LTE, sistem audio, dan PCB custom",
+				"Sistem burn-in test untuk stabilitas operasional harian"
+			],
+			"contributions": [
+				"Mengembangkan firmware untuk pengolahan audio dan komunikasi LTE",
+				"Membuat web dashboard untuk dispatcher dengan monitoring real-time",
+				"Melakukan hardware assembly dan integrasi sistem lengkap",
+				"Mengimplementasikan burn-in test untuk ketahanan operasional"
+			],
+			"results": "Sistem PTT yang meningkatkan efisiensi koordinasi armada BRT, memungkinkan respon cepat terhadap situasi darurat, dan memberikan komunikasi andal antara pengemudi dan pusat kendali."
+		},
+		{
+			"id": 7,
+			"title": "Sistem Monitoring Tekanan dan Flow LCD TFT",
+			"category": "Instrumentation",
+			"description": "Sistem monitoring real-time parameter tekanan dan laju aliran dengan tampilan LCD TFT untuk pengujian dan pemantauan proses industri.",
+			"technologies": [
+				"LCD TFT",
+				"Pressure Sensor",
+				"Flow Sensor",
+				"Microcontroller",
+				"Data Processing"
+			],
+			"image": "/project-images/pressure-flow.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/7",
+			"gradient": "from-orange-500 to-red-600",
+			"icon": "📊",
+			"detailDescription": "Proyek ini merupakan tugas akhir mahasiswa yang bertujuan untuk memantau parameter tekanan dan laju aliran (flow) secara real-time. Sistem ini menggunakan LCD TFT sebagai media tampilan agar data dapat dibaca dengan jelas dan interaktif.",
+			"specifications": [
+				"Pembacaan data dari sensor tekanan dan sensor flow secara real-time",
+				"Konversi sinyal sensor menjadi data dalam satuan tekanan (bar/psi) dan flow (L/min)",
+				"Proses filtering untuk menjaga kestabilan dan akurasi pembacaan",
+				"Tampilan LCD TFT dengan layout yang mudah dipahami pengguna"
+			],
+			"contributions": [
+				"Mengembangkan program untuk membaca data dari sensor tekanan dan flow",
+				"Mengolah data dan menampilkannya secara real-time pada LCD TFT",
+				"Mengoptimalkan antarmuka tampilan agar informatif, jelas, dan mudah dibaca"
+			],
+			"results": "Perangkat monitoring yang portabel, akurat, dan praktis digunakan dalam berbagai kebutuhan teknis untuk pengujian, pemantauan proses, maupun evaluasi kinerja sistem fluida."
+		},
+		{
+			"id": 8,
+			"title": "Sistem Monitoring Gas Medis 4 Jenis dengan HMI Nextion",
+			"category": "Medical Technology",
+			"description": "Sistem monitoring komprehensif untuk empat jenis gas medis (O₂, N₂O, Medical Air, Vacuum) dengan HMI Nextion dan pengiriman data wireless.",
+			"technologies": [
+				"HMI Nextion",
+				"VB.net",
+				"Radio Frequency",
+				"Pressure Sensors",
+				"Flow Sensors"
+			],
+			"image": "/project-images/medical-gas.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/8",
+			"gradient": "from-cyan-500 to-blue-600",
+			"icon": "🏥",
+			"detailDescription": "Proyek ini merupakan kerja sama dengan CV Mitramed Sentosa yang dikerjakan selama enam bulan secara tim. Sistem ini dirancang untuk memantau tekanan dan laju aliran (flow) empat jenis gas medis — O₂ (Oksigen), N₂O (Nitrous Oxide), Medical Air, dan Vacuum — secara real-time, dengan fitur peringatan batas maksimum dan minimum, serta pengiriman data ke ruang monitor melalui radio frekuensi.",
+			"specifications": [
+				"Monitoring tekanan dan flow O₂, N₂O, Medical Air, dan Vacuum secara real-time",
+				"HMI Nextion untuk tampilan interaktif dengan peringatan visual/audio",
+				"Sistem peringatan max/min untuk tekanan di luar batas aman",
+				"Pengiriman data wireless ke ruang monitor via radio frekuensi",
+				"Software monitoring berbasis VB.net untuk tampilan di lokasi tertentu"
+			],
+			"contributions": [
+				"Pemrograman HMI Nextion untuk menampilkan data gas secara interaktif",
+				"Membaca data sensor tekanan dan flow dari empat gas medis",
+				"Mengimplementasikan sistem peringatan max/min untuk keamanan",
+				"Mengirimkan data real-time ke ruang monitor menggunakan radio frekuensi",
+				"Mengembangkan software monitoring berbasis VB.net"
+			],
+			"results": "Sistem yang mampu memberikan informasi tekanan dan flow gas medis secara akurat dan real-time, membantu tenaga medis memantau kondisi gas di rumah sakit dengan cepat dan efisien."
+		},
+		{
+			"id": 9,
+			"title": "Robot Pengendalian Lampu UVC Bluetooth",
+			"category": "Robotics & Sterilization",
+			"description": "Robot sterilisasi dengan lampu UVC yang dikendalikan menggunakan stick PS via Bluetooth untuk proses sterilisasi area secara remote dan aman.",
+			"technologies": [
+				"Bluetooth Control",
+				"PS Controller",
+				"UVC Lamp",
+				"Robot Control",
+				"Remote Operation"
+			],
+			"image": "/project-images/uvc-robot.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/9",
+			"gradient": "from-violet-500 to-purple-600",
+			"icon": "🤖",
+			"detailDescription": "Proyek ini dikerjakan saat mengikuti pelatihan di BLK Yogyakarta selama satu bulan, dengan pengerjaan secara tim. Sistem ini dirancang untuk mengendalikan pergerakan robot dan lampu UVC menggunakan controller stick PS berbasis Bluetooth.",
+			"specifications": [
+				"Pengendalian robot dengan stick PS melalui konektivitas Bluetooth",
+				"Pergerakan robot maju, mundur, dan berbelok sesuai input stick",
+				"Kontrol on/off lampu UVC melalui kendali jarak jauh",
+				"Integrasi sistem navigasi robot dengan kontrol lampu sterilisasi"
+			],
+			"contributions": [
+				"Mengembangkan program kontrol robot menggunakan sinyal dari stick PS Bluetooth",
+				"Mengintegrasikan fitur on/off lampu UVC melalui kendali jarak jauh",
+				"Mengoptimalkan respons robot agar pergerakan halus dan akurat"
+			],
+			"results": "Robot yang mampu bergerak dengan kendali jarak jauh menggunakan stick PS Bluetooth dan mengaktifkan lampu UVC sesuai kebutuhan, mendukung proses sterilisasi secara efisien dan aman."
+		},
+		{
+			"id": 10,
+			"title": "Sistem Timbangan Digital 4 Loadcell 2 Ton",
+			"category": "Industrial Scale",
+			"description": "Timbangan digital kapasitas 2 ton menggunakan empat loadcell dengan sistem kalibrasi otomatis untuk aplikasi jembatan timbang dan timbangan pakan ternak.",
+			"technologies": [
+				"4 Loadcell",
+				"Weight Measurement",
+				"LCD Display",
+				"Calibration System",
+				"Industrial Scale"
+			],
+			"image": "/project-images/digital-scale.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/10",
+			"gradient": "from-emerald-500 to-teal-600",
+			"icon": "⚖️",
+			"detailDescription": "Proyek ini merupakan tugas akhir mahasiswa, di mana saya bertanggung jawab pada bagian pemrograman sistem. Perangkat ini menggunakan empat loadcell yang mampu membaca berat beban hingga maksimal 2 ton, dan dapat digunakan sebagai timbangan jembatan kendaraan maupun timbangan pakan ternak.",
+			"specifications": [
+				"Empat loadcell membaca berat beban secara simultan hingga 2 ton",
+				"Sistem kalibrasi otomatis untuk akurasi pembacaan harian",
+				"Tampilan berat individual per sensor dan total keseluruhan",
+				"Display LCD dengan format pembacaan yang jelas dan mudah dipantau"
+			],
+			"contributions": [
+				"Mengembangkan sistem kalibrasi empat loadcell untuk akurasi konsisten",
+				"Memprogram pembacaan berat individual dan total secara real-time",
+				"Mengoptimalkan tampilan LCD untuk kemudahan monitoring pengguna"
+			],
+			"results": "Sistem timbangan yang menghasilkan pembacaan berat akurat, stabil, dan mudah dioperasikan, cocok untuk kebutuhan industri maupun peternakan dengan kapasitas hingga 2 ton."
+		},
+		{
+			"id": 11,
+			"title": "Sistem Monitoring Panel Surya IoT Blynk & Firebase",
+			"category": "Renewable Energy IoT",
+			"description": "Sistem monitoring daya panel surya dan baterai Shoto berbasis IoT dengan Blynk dan Firebase untuk pemantauan online real-time dan alarm overcharge.",
+			"technologies": [
+				"IoT",
+				"Blynk",
+				"Firebase",
+				"Solar Panel",
+				"Battery Management"
+			],
+			"image": "/project-images/solar-monitoring.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/11",
+			"gradient": "from-yellow-500 to-orange-600",
+			"icon": "☀️",
+			"detailDescription": "Proyek ini merupakan permintaan dari rekan kerja untuk membuat sistem monitoring daya panel surya dan proses pengisian baterai Shoto secara online menggunakan Blynk dan Firebase. Sistem ini memungkinkan pengguna memantau kondisi panel surya, baterai, dan inverter secara real-time melalui internet.",
+			"specifications": [
+				"Monitoring daya panel surya: tegangan, arus, daya, dan energi (kWh)",
+				"Monitoring baterai Shoto: tegangan, arus, daya dengan alarm overcharge",
+				"Monitoring inverter: tegangan, arus, dan daya untuk konsumsi harian",
+				"Sistem alarm otomatis untuk parameter di luar batas aman"
+			],
+			"contributions": [
+				"Mengintegrasikan sensor daya untuk pembacaan parameter listrik lengkap",
+				"Mengembangkan sistem pengiriman data online ke Blynk dan Firebase",
+				"Mengimplementasikan sistem alarm overcharge untuk keamanan baterai",
+				"Membuat dashboard monitoring yang dapat diakses via mobile dan komputer"
+			],
+			"results": "Sistem yang memudahkan pemilik panel surya memantau produksi daya, status pengisian baterai, dan konsumsi listrik secara real-time, sekaligus meningkatkan keamanan melalui sistem alarm otomatis."
+		},
+		{
+			"id": 12,
+			"title": "Hot Wire Foam Cutter 4 Axis MKS Robin Nano",
+			"category": "CNC Machining",
+			"description": "Mesin Hot Wire Cutter 4 sumbu berbasis MKS Robin Nano V3.1 untuk memotong foam dengan presisi tinggi untuk aeromodelling dan prototipe.",
+			"technologies": [
+				"MKS Robin Nano",
+				"4-Axis CNC",
+				"G-code",
+				"Stepper Motors",
+				"Hot Wire Cutting"
+			],
+			"image": "/project-images/foam-cutter.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/12",
+			"gradient": "from-red-500 to-pink-600",
+			"icon": "⚡",
+			"detailDescription": "Proyek ini bertujuan mengembangkan mesin Hot Wire Cutter 4 Axis yang digunakan untuk memotong material busa (foam) dengan tingkat presisi tinggi, cocok untuk pembuatan komponen aeromodelling, dekorasi, maupun prototipe. Sistem ini menggunakan controller MKS Robin Nano V3.1 untuk mengatur gerakan motor stepper di empat sumbu sekaligus.",
+			"specifications": [
+				"Controller MKS Robin Nano V3.1 untuk kontrol 4 sumbu (X1, X2, Y1, Y2)",
+				"Gerakan sinkron kawat panas sesuai koordinat G-code dari CAD/CAM",
+				"Pengaturan suhu kawat pemotong adaptif untuk berbagai jenis material",
+				"Kemampuan memotong bentuk 2D/3D kompleks dengan presisi tinggi"
+			],
+			"contributions": [
+				"Pemrograman firmware MKS Robin Nano V3.1 untuk kontrol 4 sumbu sinkron",
+				"Kalibrasi motor stepper untuk akurasi gerakan sesuai dimensi G-code",
+				"Integrasi power supply dan driver untuk pengaturan suhu kawat optimal",
+				"Pengujian presisi potong untuk memastikan hasil potongan halus dan akurat"
+			],
+			"results": "Mesin Hot Wire 4 Axis yang mampu memotong material foam dengan tingkat presisi tinggi, mendukung pembuatan bentuk kompleks, dan memiliki antarmuka yang mudah dioperasikan."
+		},
+		{
+			"id": 13,
+			"title": "Sistem Deteksi Plat Nomor YOLOv8 Real-time",
+			"category": "Computer Vision AI",
+			"description": "Sistem deteksi dan pengenalan plat nomor kendaraan real-time menggunakan YOLOv8 dan OCR untuk automasi pencatatan di jembatan timbang.",
+			"technologies": [
+				"YOLOv8",
+				"OCR",
+				"Computer Vision",
+				"Real-time Processing",
+				"Database Integration"
+			],
+			"image": "/project-images/license-plate.jpg",
+			"photo": "/img/banner.jpg",
+			"link": "/portfolio/13",
+			"gradient": "from-indigo-500 to-purple-600",
+			"icon": "🚗",
+			"detailDescription": "Proyek ini mengembangkan sistem pendeteksian plat nomor kendaraan secara realtime menggunakan YOLOv8 sebagai model deteksi objek dan teknologi OCR (Optical Character Recognition) untuk membaca teks pada plat nomor. Sistem ini digunakan untuk membantu proses pencatatan otomatis kendaraan yang memasuki jembatan timbang, sehingga data plat nomor dapat langsung tersimpan dan diolah tanpa input manual.",
+			"specifications": [
+				"Model YOLOv8 untuk deteksi plat nomor dari streaming kamera CCTV",
+				"Teknologi OCR untuk ekstraksi teks dari plat nomor yang terdeteksi",
+				"Pemrosesan video real-time dengan optimasi frame rate dan filtering gambar",
+				"Database storage dengan timestamp, gambar plat, dan data lokasi"
+			],
+			"contributions": [
+				"Implementasi YOLOv8 untuk deteksi plat nomor kendaraan secara cepat",
+				"Integrasi OCR untuk ekstraksi teks dari area plat yang terdeteksi",
+				"Pengolahan video real-time termasuk koreksi distorsi kamera",
+				"Pengujian sistem pada berbagai kondisi pencahayaan dan sudut pandang",
+				"Pengelolaan database untuk penyimpanan hasil deteksi lengkap"
+			],
+			"results": "Sistem yang mampu bekerja secara real-time membantu mempercepat pencatatan data kendaraan. Tingkat akurasi deteksi dapat ditingkatkan lebih lanjut dan dapat dikembangkan untuk integrasi dengan sistem penimbangan dan penagihan otomatis."
+		}
+	],
+	"footer": {
+		"title": "Mari Berkolaborasi!",
+		"subtitle": "Hubungi saya untuk proyek teknologi inovatif berikutnya",
+		"copyright": "© 2024 Raden Muhammad Azhari Bastomi. Electrical Engineering Portfolio",
+			"socialLinks": [
+				{
+					"name": "Instagram",
+					"url": "https://www.instagram.com/azhari_bastomi/",
+					"icon": "instagram"
+				},
+				{
+					"name": "Facebook",
+					"url": "https://www.facebook.com/azhari.bastomi",
+					"icon": "facebook"
+				},
+				{
+					"name": "GitHub",
+					"url": "https://github.com/Ap0AqPedul1",
+					"icon": "github"
+				},
+				{
+					"name": "LinkedIn",
+					"url": "https://www.linkedin.com/in/azhari-bastomi/",
+					"icon": "linkedin"
+				}
+			]
+	}
 }

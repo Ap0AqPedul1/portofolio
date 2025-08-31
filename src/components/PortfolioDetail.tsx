@@ -1,7 +1,8 @@
-'use client';
+ 'use client';
 
 import type { PortfolioItem } from '@/types';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import Image from 'next/image';
 
 interface PortfolioDetailProps {
   project: PortfolioItem;
@@ -34,7 +35,16 @@ export default function PortfolioDetail({ project, onClose }: PortfolioDetailPro
               </button>
             </div>
             <div className="text-center text-white">
-              <span className="text-6xl mb-4 block">{project.icon}</span>
+            <div className="absolute inset-0 -z-10">
+                <Image
+                    src={project.photo ?? '/img/banner.jpg'}
+                    alt={`${project.title} banner`}
+                    fill
+                    className="object-cover w-full h-full"
+                    priority
+                />
+                <div className="absolute inset-0 bg-black/30" />
+            </div>
               <h1 className="text-3xl md:text-4xl font-bold">{project.title}</h1>
               <p className="text-xl opacity-90 mt-2">{project.category}</p>
             </div>

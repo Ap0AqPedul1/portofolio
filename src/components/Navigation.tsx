@@ -14,9 +14,15 @@ export default function NavigationComponent({ data }: NavigationProps) {
   const scrollY = useScrollEffect();
 
   const handleNavClick = (href: string) => {
-    console.log('Navigation clicked:', href);
+    // Close mobile overlay first so the target section is not hidden behind it
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+      // slightly longer delay to allow overlay to unmount and layout to settle
+      setTimeout(() => smoothScrollTo(href), 200);
+      return;
+    }
+
     smoothScrollTo(href);
-    setIsMobileMenuOpen(false);
   };
 
   const navBackgroundStyle = {
@@ -76,7 +82,7 @@ export default function NavigationComponent({ data }: NavigationProps) {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-black/90 z-40 md:hidden">
+  <div className="fixed inset-0 bg-black/90 z-[9999] md:hidden">
           <div className="flex flex-col items-center justify-center h-full space-y-8">
             {data.menuItems.map((item) => (
               <button

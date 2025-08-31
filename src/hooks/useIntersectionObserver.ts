@@ -12,7 +12,8 @@ export function useIntersectionObserver(
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setIsIntersecting(entry.isIntersecting);
+  // once intersecting, keep it true so animations remain visible
+  setIsIntersecting((prev) => prev || entry.isIntersecting);
       },
       {
         threshold: 0.1,
