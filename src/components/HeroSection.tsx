@@ -49,7 +49,7 @@ export default function HeroSection({ data }: HeroSectionProps) {
                 <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-orange-500 p-1 animate-float">
                   <div className="w-full h-full rounded-full bg-white/10 backdrop-blur-lg flex items-center justify-center overflow-hidden">
                     <img
-                      src="/img/images.jpeg"
+                      src="/img/images.jpg"
                       alt={`${data?.title ?? 'Profile'} photo`}
                       className="w-full h-full object-cover"
                     />
