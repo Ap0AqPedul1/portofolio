@@ -27,15 +27,17 @@ export default function CertificationSection({ data }: CertificationSectionProps
           {data.map((certification) => (
             <div
               key={certification.id}
-              className={`scale-in ${isIntersecting ? 'animate-in' : ''}`}
+              className={`scale-in ${isIntersecting ? 'animate-in' : ''} h-full`}
             >
-              <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 card-hover">
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  {certification.name}
-                </h3>
-                <p className="text-white/70 text-sm">
-                  {certification.provider} • {certification.year}
-                </p>
+              <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 card-hover h-full flex flex-col">
+                <div className="flex-grow">
+                  <h3 className="text-lg font-semibold text-white mb-2">
+                    {certification.name}
+                  </h3>
+                  <p className="text-white/70 text-sm">
+                    {certification.provider} • {certification.year}
+                  </p>
+                </div>
               </div>
             </div>
           ))}

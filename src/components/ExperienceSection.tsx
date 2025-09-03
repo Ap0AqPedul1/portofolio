@@ -29,12 +29,12 @@ export default function ExperienceSection({ data }: ExperienceSectionProps) {
               key={experience.id}
               className={`${
                 index % 2 === 0 ? 'slide-in-left' : 'slide-in-right'
-              } ${isIntersecting ? 'animate-in' : ''}`}
+              } ${isIntersecting ? 'animate-in' : ''} h-full`}
             >
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 card-hover">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 card-hover h-full flex flex-col">
                 <div className="flex items-center mb-4">
                   <div
-                    className={`w-12 h-12 bg-gradient-to-r ${experience.gradient} rounded-full flex items-center justify-center mr-4`}
+                    className={`w-12 h-12 bg-gradient-to-r rounded-full flex items-center justify-center mr-4`}
                   >
                     <span className="text-white font-bold">{experience.id}</span>
                   </div>
@@ -47,7 +47,7 @@ export default function ExperienceSection({ data }: ExperienceSectionProps) {
                     </p>
                   </div>
                 </div>
-                <p className="text-white/80">{experience.description}</p>
+                <p className="text-white/80 flex-grow">{experience.description}</p>
               </div>
             </div>
           ))}

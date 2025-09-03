@@ -35,18 +35,20 @@ export default function AchievementsSection({ data }: AchievementsSectionProps) 
               key={achievement.id}
               className={`${getAnimationClass(index)} ${
                 isIntersecting ? 'animate-in' : ''
-              }`}
+              } h-full`}
             >
-              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center card-hover">
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center card-hover h-full flex flex-col">
                 <div
                   className={`w-16 h-16 bg-gradient-to-r ${achievement.gradient} rounded-full flex items-center justify-center mx-auto mb-4`}
                 >
                   <span className="text-2xl">{achievement.icon}</span>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-2">
-                  {achievement.title}
-                </h3>
-                <p className="text-white/70">{achievement.organization}</p>
+                <div className="flex-grow">
+                  <h3 className="text-xl font-semibold text-white mb-2">
+                    {achievement.title}
+                  </h3>
+                  <p className="text-white/70">{achievement.organization}</p>
+                </div>
               </div>
             </div>
           ))}

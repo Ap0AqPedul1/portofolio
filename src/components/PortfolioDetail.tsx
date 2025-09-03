@@ -20,7 +20,7 @@ export default function PortfolioDetail({ project, onClose }: PortfolioDetailPro
           className={`bg-white/10 backdrop-blur-lg rounded-3xl overflow-hidden max-w-4xl mx-auto fade-in-up ${isIntersecting ? 'animate-in' : ''}`}
         >
           {/* Header */}
-          <div className={`relative h-64 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>
+          <div className={`relative h-64 bg-gradient-to-br flex items-center justify-center`}>
             <div className="absolute top-4 right-4">
               <button
                 type="button"
@@ -65,7 +65,7 @@ export default function PortfolioDetail({ project, onClose }: PortfolioDetailPro
                 {project.technologies.map((tech) => (
                   <span
                     key={tech}
-                    className={`px-4 py-2 bg-gradient-to-r ${project.gradient} text-white rounded-full text-sm font-medium`}
+                    className={`px-4 py-2 bg-gradient-to-r text-white rounded-full text-sm font-medium`}
                   >
                     {tech}
                   </span>
@@ -112,7 +112,7 @@ export default function PortfolioDetail({ project, onClose }: PortfolioDetailPro
               <button
                 type="button"
                 onClick={onClose}
-                className={`bg-gradient-to-r ${project.gradient} text-white px-8 py-3 rounded-full hover:opacity-80 transition-all font-medium`}
+                className={`bg-gradient-to-r text-white px-8 py-3 rounded-full hover:opacity-80 transition-all font-medium`}
               >
                 Kembali ke Portfolio
               </button>
